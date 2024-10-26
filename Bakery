@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   Bakery Website
+  </title>
+  <link crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" rel="stylesheet"/>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet"/>
+  <style>
+   body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+        }
+        .navbar {
+            background-color: #3a3a3a;
+        }
+        .navbar-brand, .navbar-nav .nav-link {
+            color: #fff;
+        }
+        .hero-section {
+            background-image: url('colorful-sweets-with-copy-space.jpg');
+            background-size: cover;
+            background-position: center;
+            color: #fff;
+            text-align: center;
+            padding: 100px 0;
+        }
+        .hero-section h1 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+        }
+        .hero-section p {
+            font-size: 1.25rem;
+            margin-bottom: 30px;
+        }
+        .hero-section .btn {
+            background-color: #f8b400;
+            border: none;
+            padding: 10px 20px;
+            font-size: 1rem;
+        }
+        .info-section {
+            background-color: #f8b400;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        .info-section h2 {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+        }
+        .info-section p {
+            font-size: 1rem;
+        }
+        .categories-section, .offer-section, .skills-section, .testimonial-section, .newsletter-section, .footer-section {
+            padding: 60px 0;
+        }
+        .categories-section h2, .offer-section h2, .skills-section h2, .testimonial-section h2, .newsletter-section h2 {
+            font-size: 2rem;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+        .categories-section .card, .offer-section .card, .skills-section .card, .testimonial-section .card {
+            border: none;
+            margin-bottom: 30px;
+        }
+        .categories-section .card img, .offer-section .card img, .skills-section .card img, .testimonial-section .card img {
+            height: 200px;
+            object-fit: cover;
+        }
+        .newsletter-section {
+            background-color: #f8b400;
+            color: #fff;
+            text-align: center;
+        }
+        .newsletter-section .btn {
+            background-color: #fff;
+            color: #f8b400;
+            border: none;
+            padding: 10px 20px;
+            font-size: 1rem;
+        }
+        .footer-section {
+            background-color: #3a3a3a;
+            color: #fff;
+        }
+        .footer-section a {
+            color: #f8b400;
+        }
+  </style>
+ </head>
+ <body>
+  <nav class="navbar navbar-expand-lg">
+   <div class="container">
+    <a class="navbar-brand" href="#">
+     Bakery
+    </a>
+    <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-bs-target="#navbarNav" data-bs-toggle="collapse" type="button">
+     <span class="navbar-toggler-icon">
+     </span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+     <ul class="navbar-nav ms-auto">
+      <li class="nav-item">
+       <a class="nav-link" href="#">
+        Home
+       </a>
+      </li>
+      <li class="nav-item">
+       <a class="nav-link" href="#">
+        About
+       </a>
+      </li>
+      <li class="nav-item">
+       <a class="nav-link" href="#">
+        Products
+       </a>
+      </li>
+      <li class="nav-item">
+       <a class="nav-link" href="#">
+        Contact
+       </a>
+      </li>
+     </ul>
+    </div>
+   </div>
+  </nav>
+  <section class="hero-section">
+   <div class="container">
+    <h1>
+     We Bake With Passion
+    </h1>
+    <p>
+     Delicious and fresh bakery products made with love.
+    </p>
+    <a class="btn" href="#">
+     Learn More
+    </a>
+   </div>
+  </section>
+  <section class="info-section">
+   <div class="container">
+    <h2>
+     The Best Bakery In Your City
+    </h2>
+    <p>
+     Call us: +012 345 6789
+    </p>
+   </div>
+  </section>
+  <section class="categories-section">
+   <div class="container">
+    <h2>
+     Explore The Categories Of Our Bakery Products
+    </h2>
+    <div class="row">
+     <div class="col-md-4">
+      <div class="card">
+       <img alt="Cake" class="card-img-top" height="200" src="https://storage.googleapis.com/a1aa/image/RejthJhS00VzYaQPPfS84ZHtDGUPHQrMrPBGSrPQzbRZxsqTA.jpg" width="400"/>
+       <div class="card-body">
+        <h5 class="card-title">
+         Cake
+        </h5>
+        <p class="card-text">
+         Delicious and fresh cakes for every occasion.
+        </p>
+       </div>
+      </div>
+     </div>
+     <div class="col-md-4">
+      <div class="card">
+       <img alt="Bread" class="card-img-top" height="200" src="https://storage.googleapis.com/a1aa/image/jVoBqviSW77vKlHJQKOdjbJrAdusTKjC9CYnI5MPFfYpYW1JA.jpg" width="400"/>
+       <div class="card-body">
+        <h5 class="card-title">
+         Bread
+        </h5>
+        <p class="card-text">
+         Freshly baked bread with a variety of flavors.
+        </p>
+       </div>
+      </div>
+     </div>
+     <div class="col-md-4">
+      <div class="card">
+       <img alt="Pastry" class="card-img-top" height="200" src="https://storage.googleapis.com/a1aa/image/14f38wbF5DxejEzQUFTqnzJJB0mfEn0DwqAKf3ZxAVvwEzqOB.jpg" width="400"/>
+       <div class="card-body">
+        <h5 class="card-title">
+         Pastry
+        </h5>
+        <p class="card-text">
+         Tasty pastries to satisfy your sweet tooth.
+        </p>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </section>
+  <section class="offer-section">
+   <div class="container">
+    <h2>
+     What Do We Offer For You?
+    </h2>
+    <div class="row">
+     <div class="col-md-4">
+      <div class="card">
+       <img alt="Offer 1" class="card-img-top" height="200" src="https://storage.googleapis.com/a1aa/image/rjQDwc3CSk5EHV6fQL29Fv4LejyTe2DNZi0eBoadR5DtFzqOB.jpg" width="400"/>
+       <div class="card-body">
+        <h5 class="card-title">
+         Quality Products
+        </h5>
+        <p class="card-text">
+         We use the best ingredients to ensure the highest quality.
+        </p>
+       </div>
+      </div>
+     </div>
+     <div class="col-md-4">
+      <div class="card">
+       <img alt="Offer 2" class="card-img-top" height="200" src="https://storage.googleapis.com/a1aa/image/c8M6MJVipFISJNfXpQAefrL00lnejvdSiqPWQOdmNVe1JmVdC.jpg" width="400"/>
+       <div class="card-body">
+        <h5 class="card-title">
+         Custom Orders
+        </h5>
+        <p class="card-text">
+         We take custom orders to meet your specific needs.
+        </p>
+       </div>
+      </div>
+     </div>
+     <div class="col-md-4">
+      <div class="card">
+       <img alt="Offer 3" class="card-img-top" height="200" src="https://storage.googleapis.com/a1aa/image/7jeLscfEUkmfOo0gmtYz4BfJk9cTuXBu7feHYuwaAVyVUMr6E.jpg" width="400"/>
+       <div class="card-body">
+        <h5 class="card-title">
+         Fast Delivery
+        </h5>
+        <p class="card-text">
+         We ensure fast and reliable delivery of our products.
+        </p>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </section>
+  <section class="skills-section">
+   <div class="container">
+    <h2>
+     We're Super Professional At Our Skills
+    </h2>
+    <div class="row">
+     <div class="col-md-3">
+      <div class="card">
+       <img alt="Skill 1" class="card-img-top" height="200" src="https://storage.googleapis.com/a1aa/image/szIsDBGrVfxlZC0PvrufnU683SqCNQqyJO8AdxcO9YoNxsqTA.jpg" width="200"/>
+       <div class="card-body">
+        <h5 class="card-title">
+         Skill 1
+        </h5>
+        <p class="card-text">
+         Description of skill 1.
+        </p>
+       </div>
+      </div>
+     </div>
+     <div class="col-md-3">
+      <div class="card">
+       <img alt="Skill 2" class="card-img-top" height="200" src="https://storage.googleapis.com/a1aa/image/f12mzjO0OUVmQS8mCdVp1Ufo2nuP6Y5F9dT2Ds6e8P6riZVnA.jpg" width="200"/>
+       <div class="card-body">
+        <h5 class="card-title">
+         Skill 2
+        </h5>
+        <p class="card-text">
+         Description of skill 2.
+        </p>
+       </div>
+      </div>
+     </div>
+     <div class="col-md-3">
+      <div class="card">
+       <img alt="Skill 3" class="card-img-top" height="200" src="https://storage.googleapis.com/a1aa/image/x96P5RI0fkToWy1rPgGK61fUExNrP12rthMLeQbwR10wiZVnA.jpg" width="200"/>
+       <div class="card-body">
+        <h5 class="card-title">
+         Skill 3
+        </h5>
+        <p class="card-text">
+         Description of skill 3.
+        </p>
+       </div>
+      </div>
+     </div>
+     <div class="col-md-3">
+      <div class="card">
+       <img alt="Skill 4" class="card-img-top" height="200" src="https://storage.googleapis.com/a1aa/image/razUbmp262akO1BGkJfKggK3iIHSThX9lZ9ezz8peFjviZVnA.jpg" width="200"/>
+       <div class="card-body">
+        <h5 class="card-title">
+         Skill 4
+        </h5>
+        <p class="card-text">
+         Description of skill 4.
+        </p>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </section>
+  <section class="testimonial-section">
+   <div class="container">
+    <h2>
+     More Than 20000+ Customers Trusted Us
+    </h2>
+    <div class="row">
+     <div class="col-md-6">
+      <div class="card">
+       <div class="card-body">
+        <p class="card-text">
+         "Great bakery with delicious products!"
+        </p>
+        <h5 class="card-title">
+         Customer 1
+        </h5>
+       </div>
+      </div>
+     </div>
+     <div class="col-md-6">
+      <div class="card">
+       <div class="card-body">
+        <p class="card-text">
+         "Excellent service and quality!"
+        </p>
+        <h5 class="card-title">
+         Customer 2
+        </h5>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </section>
+  <section class="newsletter-section">
+   <div class="container">
+    <h2>
+     Subscribe Our Newsletter
+    </h2>
+    <form class="d-flex justify-content-center">
+     <input class="form-control me-2" placeholder="Enter your email" type="email"/>
+     <button class="btn" type="submit">
+      Subscribe
+     </button>
+    </form>
+   </div>
+  </section>
+  <footer class="footer-section">
+   <div class="container">
+    <div class="row">
+     <div class="col-md-4">
+      <h5>
+       Contact Us
+      </h5>
+      <p>
+       Address: 123 Bakery St, City
+      </p>
+      <p>
+       Phone: +012 345 6789
+      </p>
+      <p>
+       Email: info@bakery.com
+      </p>
+      <form>
+        <div class="mb-3">
+          <label for="name" class="form-label">Name</label>
+          <input type="text" class="form-control" id="name" placeholder="Your Name">
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Email</label>
+          <input type="email" class="form-control" id="email" placeholder="Your Email">
+        </div>
+        <div class="mb-3">
+          <label for="message" class="form-label">Message</label>
+          <textarea class="form-control" id="message" rows="3" placeholder="Your Message"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+     </div>
+     <div class="col-md-4">
+      <h5>
+       Quick Links
+      </h5>
+      <ul class="list-unstyled">
+       <li>
+        <a href="#">
+         Home
+        </a>
+       </li>
+       <li>
+        <a href="#">
+         About
+        </a>
+       </li>
+       <li>
+        <a href="#">
+         Products
+        </a>
+       </li>
+       <li>
+        <a href="#">
+         Contact
+        </a>
+       </li>
+      </ul>
+     </div>
+     <div class="col-md-4">
+      <h5>
+       Photo Gallery
+      </h5>
+      <div class="row">
+       <div class="col-4">
+        <img alt="Gallery Image 1" class="img-fluid" height="100" src="https://storage.googleapis.com/a1aa/image/iW1f8zyLAejCIk81Sx0gxzaQPzpe7f50J64VgzxPn8tTFzqOB.jpg" width="100"/>
+       </div>
+       <div class="col-4">
+        <img alt="Gallery Image 2" class="img-fluid" height="100" src="https://storage.googleapis.com/a1aa/image/e3bgkBp5eNjNh0zyCwBb3EYa4Ju2eq93q6AtxBg2fZhAFzqOB.jpg" width="100"/>
+       </div>
+       <div class="col-4">
+        <img alt="Gallery Image 3" class="img-fluid" height="100" src="https://storage.googleapis.com/a1aa/image/Of3luFQpNXyxdiQoOynEen1mPteogeC01QPOedPEMf0aXMr6E.jpg" width="100"/>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </footer>
+ </body>
+</html>
